@@ -76,8 +76,11 @@
                         {{-- <x-Alert message="These are NCIT students" type="danger" /> --}}
                         {{-- <x-Alert :message="session('componentSession')" type="danger" /> --}}
                         <x-alert type="danger" data-id="100">
-                          <h1>Heading from slot</h1>
+                            <h1>Heading from slot</h1>
                         </x-alert>
+                    </div>
+                    <div id="example">
+
                     </div>
                     <!-- /.card-body -->
                 </div>
@@ -86,4 +89,5 @@
         </div>
     </div>
     <!-- /.content-wrapper -->
+    <script src="{{ mix('js/app.js') }}"></script>
 @endsection
